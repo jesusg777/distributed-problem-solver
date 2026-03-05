@@ -8,13 +8,13 @@ The system follows a synchronous request-response model where the Go client subm
 
 ```mermaid
 graph LR
-    A[Client (Go)] -->|"TCP Socket Request"| B[Server (Python)]
+    A[Client Go] --- B[Server Python]
+    A -->|TCP_Request| B
     B -->|Dispatch| C{Solver Factory}
     C -->|Instantiate| D[Problem Solver]
     D -->|Process| D
     D -->|Result| B
-    B -->|"TCP Socket Response"| A
-
+    B -->|TCP_Response| A
 ```
 
 ## 🧩 Implemented Solvers
