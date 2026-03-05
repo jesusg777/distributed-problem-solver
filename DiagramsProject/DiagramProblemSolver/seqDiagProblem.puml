@@ -1,0 +1,37 @@
+@startuml   Diagrama De Secuencia ProblemSolver
+participant Client
+participant Crypter
+participant Server
+participant EncryptionHandler
+participant Sockets
+
+Client -> Crypter: process_and_send_data()
+activate Crypter
+Crypter -> EncryptionHandler: generate_keys()
+activate EncryptionHandler
+loop Until Successful Key Exchange
+    Crypter -> Sockets: listen_socket()
+    activate Sockets
+    Sockets -> Server: Request Public Key
+    activate Server
+    Server --> Sockets: Public Key
+    deactivate Server
+    Sockets --> Crypter: Public Key
+    deactivate Sockets
+    Crypter -> EncryptionHandler: Set Public Key
+    deactivate EncryptionHandler
+end
+Crypter -> Sockets: listen_socket()
+activate Sockets
+Sockets -> Server: Listen for Data
+activate Server
+Server -> Crypter: json_data
+deactivate Server
+Crypter -> EncryptionHandler: encrypt(data)
+activate EncryptionHandler
+EncryptionHandler -> Sockets: send_to_cli(crypt_data)
+activate Sockets
+Sockets -> Server: Send Encrypted Data
+activate Server
+deactivate Sockets
+Server -> Crypter: res

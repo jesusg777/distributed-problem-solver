@@ -1,0 +1,35 @@
+@startuml   Diagrama De Clases Jesus Gelves
+class EncryptionHandler {
+    -private_key
+    -public_key
+    -public_key_pem
+    +init()
+    +generate_keys()
+    +encrypt(data)
+    +decrypt(encrypted)
+}
+
+interface IDistributionRandomSolver {
+    {abstract} +generate_numbers(min, max, count)
+}
+
+class NormalDistribution {
+    +generate_numbers(min, max, count)
+}
+
+class UniformDistribution {
+    +generate_numbers(min, max, count)
+}
+
+class MyApp {
+    -app: Flask
+    -crypter: EncryptionHandler
+    +__init__()
+    +run_app()
+}
+
+IDistributionRandomSolver -- MyApp
+EncryptionHandler -- MyApp
+IDistributionRandomSolver <|.. NormalDistribution
+IDistributionRandomSolver <|.. UniformDistribution
+@enduml

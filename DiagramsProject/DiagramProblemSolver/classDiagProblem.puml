@@ -1,0 +1,67 @@
+@startuml   Diagrama de clases ProblemSolver
+
+class EncryptionHandler {
+    -private_key
+    -public_key
+    -public_key_pem
+    +init()
+    +generate_keys()
+    +encrypt(data)
+    +decrypt(encrypted)
+}
+
+interface IProblemCreator {
+    {abstract} +factory_method() : IProblemSolver
+    +solve_problem(data) : list
+}
+
+interface IProblemSolver {
+    {abstract} +solve_problem(data: list) : list
+}
+
+IProblemCreator <|.. CreatorFibonacciVerifier
+IProblemCreator <|.. CreatorFizzBuzz
+IProblemCreator <|.. CreatorPrimeClassifier
+IProblemSolver <|.. IProblemCreator
+
+IProblemSolver <|.. FibonacciVerifier
+IProblemSolver <|.. FizzBuzz
+IProblemSolver <|.. PrimeClassifier
+
+class CreatorFibonacciVerifier {
+    +factory_method() : IProblemSolver
+}
+
+class CreatorFizzBuzz {
+    +factory_method() : IProblemSolver
+}
+
+class CreatorPrimeClassifier {
+    +factory_method() : IProblemSolver
+}
+
+class FibonacciVerifier {
+    +solve_problem(data)
+    +is_fibonacci(number)
+}
+
+class FizzBuzz {
+    +solve_problem(data: list) : list
+    -__fizz_buzz(number: int) : str
+}
+
+class PrimeClassifier {
+    +solve_problem(data)
+    +prime_classifier(number)
+    +is_prime(number)
+    +is_semiprime(number)
+    +is_cuadratic_semiprime(number)
+}
+
+class Sockets {
+    +listen_socket()
+    +send_to_cli(data)
+}
+EncryptionHandler -- Sockets
+IProblemCreator -- Sockets
+@enduml

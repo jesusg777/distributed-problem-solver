@@ -1,0 +1,113 @@
+2024-06-07 16:11:11- DEBUG - This is a debug message
+2024-06-07 16:11:11- INFO - This is an info message
+2024-06-07 16:11:11- WARNING - This is a warning message
+2024-06-07 16:11:12- DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2024-06-07 16:11:12- DEBUG - http://127.0.0.1:5000 "POST /public_key HTTP/1.1" 200 299
+2024-06-07 16:11:22- INFO - Received JSON data from socket: {'Problem': '', 'MinNumber': 0, 'MaxNumber': 0, 'CountNumbers': 0, 'OutPutFile': False, 'OutPutCmd': False, 'Kill': True}
+2024-06-07 16:11:22- DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2024-06-07 16:11:22- INFO - Shutting down...
+2024-06-07 16:11:32- DEBUG - This is a debug message
+2024-06-07 16:11:32- INFO - This is an info message
+2024-06-07 16:11:32- WARNING - This is a warning message
+2024-06-07 16:11:32- DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2024-06-07 16:11:32- DEBUG - http://127.0.0.1:5000 "POST /public_key HTTP/1.1" 200 299
+2024-06-07 16:11:36- INFO - Received JSON data from socket: {'Problem': 'PrimeClassifier', 'MinNumber': 10, 'MaxNumber': 20, 'CountNumbers': 50, 'OutPutFile': False, 'OutPutCmd': True, 'Kill': False}
+2024-06-07 16:11:36- DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2024-06-07 16:11:36- DEBUG - http://127.0.0.1:5000 "POST /numbers HTTP/1.1" 201 866
+2024-06-07 16:11:36- INFO - Sent encrypted data to server
+2024-06-07 16:11:36- INFO - Sent results to CLI
+2024-06-07 16:12:51- INFO - Received JSON data from socket: {'Problem': 'PrimeClassifier', 'MinNumber': 10, 'MaxNumber': 20, 'CountNumbers': 50, 'OutPutFile': False, 'OutPutCmd': True, 'Kill': False}
+2024-06-07 16:12:51- DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2024-06-07 16:12:51- DEBUG - http://127.0.0.1:5000 "POST /numbers HTTP/1.1" 201 866
+2024-06-07 16:12:51- INFO - Sent encrypted data to server
+2024-06-07 16:12:51- INFO - Sent results to CLI
+2024-06-07 16:13:01- INFO - Received JSON data from socket: {'Problem': 'PrimeClassifier', 'MinNumber': 10, 'MaxNumber': 20, 'CountNumbers': 50, 'OutPutFile': True, 'OutPutCmd': False, 'Kill': False}
+2024-06-07 16:13:01- DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2024-06-07 16:13:01- DEBUG - http://127.0.0.1:5000 "POST /numbers HTTP/1.1" 201 866
+2024-06-07 16:13:01- INFO - Sent encrypted data to server
+2024-06-07 16:13:01- INFO - Sent results to CLI
+2024-06-07 16:14:07- INFO - Received JSON data from socket: {'Problem': '', 'MinNumber': 0, 'MaxNumber': 0, 'CountNumbers': 0, 'OutPutFile': False, 'OutPutCmd': False, 'Kill': True}
+2024-06-07 16:14:07- DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2024-06-07 16:14:07- INFO - Shutting down...
+2024-06-07 16:14:22- DEBUG - This is a debug message
+2024-06-07 16:14:22- INFO - This is an info message
+2024-06-07 16:14:22- WARNING - This is a warning message
+2024-06-07 16:14:22- DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2024-06-07 16:14:22- DEBUG - http://127.0.0.1:5000 "POST /public_key HTTP/1.1" 200 299
+2024-06-07 16:14:29- INFO - Received JSON data from socket: {'Problem': '', 'MinNumber': 0, 'MaxNumber': 0, 'CountNumbers': 0, 'OutPutFile': False, 'OutPutCmd': False, 'Kill': True}
+2024-06-07 16:14:29- DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2024-06-07 16:14:29- INFO - Shutting down...
+2024-06-07 16:14:36- DEBUG - This is a debug message
+2024-06-07 16:14:36- INFO - This is an info message
+2024-06-07 16:14:36- WARNING - This is a warning message
+2024-06-07 16:14:36- DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2024-06-07 16:14:36- DEBUG - http://127.0.0.1:5000 "POST /public_key HTTP/1.1" 200 299
+2024-06-07 16:14:48- INFO - Received JSON data from socket: {'Problem': 'FibonacciVerifier', 'MinNumber': 10, 'MaxNumber': 20, 'CountNumbers': 50, 'OutPutFile': True, 'OutPutCmd': False, 'Kill': False}
+2024-06-07 16:14:48- DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2024-06-07 16:14:48- DEBUG - http://127.0.0.1:5000 "POST /numbers HTTP/1.1" 201 866
+2024-06-07 16:14:48- INFO - Sent encrypted data to server
+2024-06-07 16:14:48- INFO - Sent results to CLI
+2024-06-07 16:16:04- INFO - Received JSON data from socket: {'Problem': '', 'MinNumber': 0, 'MaxNumber': 0, 'CountNumbers': 0, 'OutPutFile': False, 'OutPutCmd': False, 'Kill': True}
+2024-06-07 16:16:04- DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2024-06-07 16:16:04- INFO - Shutting down...
+2024-06-07 16:16:13- DEBUG - This is a debug message
+2024-06-07 16:16:13- INFO - This is an info message
+2024-06-07 16:16:13- WARNING - This is a warning message
+2024-06-07 16:16:13- DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2024-06-07 16:16:13- DEBUG - http://127.0.0.1:5000 "POST /public_key HTTP/1.1" 200 299
+2024-06-07 16:16:23- INFO - Received JSON data from socket: {'Problem': 'FizzBuzz', 'MinNumber': 0, 'MaxNumber': 100, 'CountNumbers': 10, 'OutPutFile': False, 'OutPutCmd': False, 'Kill': False}
+2024-06-07 16:16:23- DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2024-06-07 16:16:23- DEBUG - http://127.0.0.1:5000 "POST /numbers HTTP/1.1" 201 546
+2024-06-07 16:16:23- INFO - Sent encrypted data to server
+2024-06-07 16:16:23- INFO - Sent results to CLI
+2024-06-07 16:16:48- INFO - Received JSON data from socket: {'Problem': '', 'MinNumber': 0, 'MaxNumber': 0, 'CountNumbers': 0, 'OutPutFile': False, 'OutPutCmd': False, 'Kill': True}
+2024-06-07 16:16:48- DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2024-06-07 16:16:48- INFO - Shutting down...
+2024-06-07 16:17:43- DEBUG - This is a debug message
+2024-06-07 16:17:43- INFO - This is an info message
+2024-06-07 16:17:43- WARNING - This is a warning message
+2024-06-07 16:17:44- DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2024-06-07 16:17:44- DEBUG - http://127.0.0.1:5000 "POST /public_key HTTP/1.1" 200 299
+2024-06-07 16:17:52- INFO - Received JSON data from socket: {'Problem': 'FibonacciVerifier', 'MinNumber': 30, 'MaxNumber': 20, 'CountNumbers': 50, 'OutPutFile': True, 'OutPutCmd': False, 'Kill': False}
+2024-06-07 16:17:52- DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2024-06-07 16:17:52- DEBUG - http://127.0.0.1:5000 "POST /numbers HTTP/1.1" 201 898
+2024-06-07 16:17:52- INFO - Sent encrypted data to server
+2024-06-07 16:17:52- INFO - Sent results to CLI
+2024-06-07 16:21:19- INFO - Received JSON data from socket: {'Problem': '', 'MinNumber': 0, 'MaxNumber': 0, 'CountNumbers': 0, 'OutPutFile': False, 'OutPutCmd': False, 'Kill': True}
+2024-06-07 16:21:19- DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2024-06-07 16:21:19- INFO - Shutting down...
+2024-06-07 16:59:08- DEBUG - This is a debug message
+2024-06-07 16:59:08- INFO - This is an info message
+2024-06-07 16:59:08- WARNING - This is a warning message
+2024-06-07 16:59:09- DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2024-06-07 16:59:09- DEBUG - http://127.0.0.1:5000 "POST /public_key HTTP/1.1" 200 299
+2024-06-07 17:01:13- INFO - Received JSON data from socket: {'Problem': 'PrimeClassifier', 'MinNumber': 0, 'MaxNumber': 1000, 'CountNumbers': 100, 'OutPutFile': True, 'OutPutCmd': False, 'Kill': False}
+2024-06-07 17:01:13- DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2024-06-07 17:01:13- DEBUG - http://127.0.0.1:5000 "POST /numbers HTTP/1.1" 201 1506
+2024-06-07 17:01:13- INFO - Sent encrypted data to server
+2024-06-07 17:01:13- INFO - Sent results to CLI
+2024-06-07 17:01:26- INFO - Received JSON data from socket: {'Problem': 'PrimeClassifier', 'MinNumber': 0, 'MaxNumber': 1000, 'CountNumbers': 100, 'OutPutFile': True, 'OutPutCmd': False, 'Kill': False}
+2024-06-07 17:01:26- DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2024-06-07 17:01:26- DEBUG - http://127.0.0.1:5000 "POST /numbers HTTP/1.1" 201 1474
+2024-06-07 17:01:26- INFO - Sent encrypted data to server
+2024-06-07 17:01:26- INFO - Sent results to CLI
+2024-06-07 17:02:43- INFO - Received JSON data from socket: {'Problem': '', 'MinNumber': 0, 'MaxNumber': 0, 'CountNumbers': 0, 'OutPutFile': False, 'OutPutCmd': False, 'Kill': True}
+2024-06-07 17:02:43- DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2024-06-07 17:02:43- INFO - Shutting down...
+2024-06-07 18:10:14- DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2024-06-07 18:10:14- DEBUG - http://127.0.0.1:5000 "POST /public_key HTTP/1.1" 200 299
+2024-06-07 18:10:19- INFO - Received JSON data from socket: {'Problem': 'PrimeClassifier', 'MinNumber': 0, 'MaxNumber': 1000, 'CountNumbers': 100, 'OutPutFile': True, 'OutPutCmd': False, 'Kill': False}
+2024-06-07 18:10:19- DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2024-06-07 18:10:19- DEBUG - http://127.0.0.1:5000 "POST /numbers HTTP/1.1" 201 1474
+2024-06-07 18:10:19- INFO - Sent encrypted data to server
+2024-06-07 18:10:19- INFO - Sent results to CLI
+2024-06-07 18:10:35- INFO - Received JSON data from socket: {'Problem': 'FizzBuzz', 'MinNumber': 0, 'MaxNumber': 1000, 'CountNumbers': 100, 'OutPutFile': True, 'OutPutCmd': False, 'Kill': False}
+2024-06-07 18:10:35- DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2024-06-07 18:10:35- DEBUG - http://127.0.0.1:5000 "POST /numbers HTTP/1.1" 201 1474
+2024-06-07 18:10:35- INFO - Sent encrypted data to server
+2024-06-07 18:10:35- INFO - Sent results to CLI
+2024-06-07 18:11:06- INFO - Received JSON data from socket: {'Problem': 'FibonacciVerifier', 'MinNumber': 0, 'MaxNumber': 1000, 'CountNumbers': 100, 'OutPutFile': True, 'OutPutCmd': False, 'Kill': False}
+2024-06-07 18:11:06- DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2024-06-07 18:11:06- DEBUG - http://127.0.0.1:5000 "POST /numbers HTTP/1.1" 201 1442
+2024-06-07 18:11:06- INFO - Sent encrypted data to server
+2024-06-07 18:11:06- INFO - Sent results to CLI

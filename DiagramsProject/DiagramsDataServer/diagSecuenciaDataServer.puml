@@ -1,0 +1,24 @@
+@startuml   Diagrama De Secuencia DataServer
+participant Client
+participant Server
+participant EncryptionHandler
+participant Crypter
+participant IDistributionRandomSolver
+participant NormalDistribution
+participant UniformDistribution
+participant Sockets
+Client -> Server: POST /public_key
+Server --> Client: 200 OK
+Client -> Server: POST /numbers
+Server --> Client: 201 OK with encrypted data
+Client -> Crypter: decrypt(encrypted_data)
+Crypter --> Client: decrypted_data
+Client -> IDistributionRandomSolver: generate_numbers(min, max, count)
+IDistributionRandomSolver -> NormalDistribution: generate_numbers(min, max, count)
+NormalDistribution --> IDistributionRandomSolver: numbers, distribution
+IDistributionRandomSolver --> Client: numbers, distribution
+Client -> Crypter: encrypt(numbers, distribution)
+Crypter --> Client: encrypted_result
+Client -> Server: POST /numbers with encrypted_result
+Server --> Client: 201 OK
+@enduml
